@@ -1,0 +1,70 @@
+body {
+	background: rgba(33, 40,69, 1);
+}
+.container {
+	background: white;
+	box-shadow: 2px 2px 2px #888888;
+	width: 30%;
+	margin: 0 auto;
+	
+}
+.navigation {
+	background: rgb(0, 186, 242);
+	margin: 0;
+	padding: 0;
+}
+.nav-element {
+	list-style-type: none;
+	display: inline-block;
+	width: 32.5%;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	padding-top: 20px;
+
+}
+.nav-element:not(:last-child) {
+	border-right: 1px solid white;
+}
+.nav-element:hover {
+	cursor: pointer;
+}
+.active {
+	background: rgb(242, 143, 42);
+}
+.logo {
+	border-radius: 50%;
+	width: 50px;
+}
+.logo-default {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: #888;
+	display: inline-block;
+}
+
+.user {
+
+	margin: 10px 0;
+	padding: 20px;
+	text-align: center;
+}
+.user:not(:first-child) {
+	border-top: 1px solid #888;
+}
+.logo:hover, .logo-default:hover {
+	cursor: pointer;
+}
+
+.searchbox {
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 5px;
+	height: 30px;
+	text-align: center;
+}
+.searchbox-container {
+	background: #888;
+	padding: 10px 0;
+}
